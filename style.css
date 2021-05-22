@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+.col {
+    text-align: center;
+    font-family: 'Kalam', monospace;
+    font-size: 3vw;
+    vertical-align: middle;
+    border-left-style: solid;
+    border-left-width: 5px;
+    padding-top: 6.8vh;
+}
+
+.row {
+    height: 208px;
+}
+
+.row:not(:last-of-type) {
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+}
